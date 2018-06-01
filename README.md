@@ -11,14 +11,20 @@
 + vue2:采用vuex管理状态，实现状态共享，vuerouter实现路由管理
 
 * axios:实现HTTP请求
+
 * Express:使用express4的最新语法搭建服务器
+
 * webpack： 自动构建化工具，除了vue-cli使用的部分，主要使用webpack的proxy配置跨域
+
 * ES5 ES6：少部分使用ES6
+
 * HTML5+CSS3:audio 语义化标签
+
+  ​
 
 ### 图片预览
 
-![text](C:\Users\zeng\Desktop\myListenGifs.gif)
+![text](https://github.com/4lQuiorrA/eListen/blob/master/myListenGifs.gif)
 
 ### 项目遇到的问题
 
