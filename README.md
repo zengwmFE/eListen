@@ -4,7 +4,7 @@
 
 ### 源代码地址
 
-[github](https://github.com/4lQuiorrA/vonic_pro_1)地址
+[github](https://github.com/4lQuiorrA/eListen)地址
 
 ### 技术栈
 
@@ -20,7 +20,6 @@
 
 * HTML5+CSS3:audio 语义化标签
 
-  ​
 
 ### 图片预览
 
@@ -62,6 +61,12 @@ npm run e2e
 #run all tests
 npm test
 ```
+
+### 关于代码问题可以联系
+
+[邮箱](ming19940910@163.com)
+
+
 
 
 
