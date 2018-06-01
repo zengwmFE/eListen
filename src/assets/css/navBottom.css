@@ -1,0 +1,37 @@
+.router-link{
+  display:-webkit-flex; display: flex; width: 100%;
+}
+.router-link a{
+  color:#424242;
+  padding:0.5em;
+
+}
+a.router_active{
+  color:#2196F3;
+}
+a.tabItem{
+  -webkit-flex:1; flex:1;
+  height:4em;
+
+}
+.home_group{
+margin-top:0.2em;
+  height:4em;
+}
+.fa-icon{
+  display:block;
+  text-anchor: middle;
+  margin-left:3.3em;
+  text-align: center;
+}
+p.words{
+   height:2em;
+  line-height: 2em;
+  font-size:12px;
+  -webkit-transform: scale(0.5,1);
+  -moz-transform: scale(0.5,1);
+  -ms-transform: scale(0.5,1);
+  -o-transform: scale(0.5,1);
+  transform: scale(0.5,1);
+}
+

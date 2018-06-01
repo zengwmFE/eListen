@@ -1,0 +1,55 @@
+export default {
+  showNav({commit}){
+    commit("showNav");
+  },
+  hideNav({commit}) {
+
+    commit("hideNav");
+  },
+  showTop({commit}){
+    commit("showTop");
+  },
+  hideTop({commit}){
+    commit("hideTop");
+  },
+  showSelfCenter({commit}){
+    commit("showSelfCenter");
+  },
+  hideSelfCenter({commit}){
+    commit("hideSelfCenter");
+  },
+  showToast({commit}){
+    commit("showToast");
+  },
+  hideToast({commit}){
+    commit("hideToast");
+  },
+  setUserInfo({commit},userInfo){
+
+    commit("setUserInfo",userInfo);
+  },
+  setChangeShow({commit}){
+    console.log("change");
+    commit("showUserChange");
+  },
+  setChangeHide({commit}){
+    commit("hideUserChange");
+  },
+  setCategory({commit},category){
+    commit("setCategory",category);
+  },
+  setMusicPlay({commit},music){//设置MP3的名字状态
+    console.log(music);
+    commit("setMusicPlay",music);
+  },
+  setMusicTime({commit},time){//保存MP3的时间状态
+    console.log(time);
+    commit("setMusicTime",time);
+  },
+  setMp3Category({commit},category){
+    commit("setMp3Category",category);
+  },
+  setBottomActive({commit},bottomActive){
+    commit("setBottomActive",bottomActive);
+  }
+}

@@ -1,0 +1,32 @@
+var mongoose = require("mongoose");
+//听力父表
+module.exports = new mongoose.Schema({
+    CapterCategory:{
+      type:String,
+      default:""
+    },
+    CapterLevel:{
+      type:String,
+      default:""
+    },
+    CapterpicAddress:{
+      type:String,
+      default:""
+    },
+    Cpname:{
+      type:String,
+      default:""
+    },
+    CpAddress:{
+      type:String,
+      default:""
+    },
+    CpTime:{
+      type:String,
+      default:""
+  },
+  CpList:{
+      type:String,
+      default:""
+  }
+});

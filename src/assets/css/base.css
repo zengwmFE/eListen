@@ -1,0 +1,144 @@
+/*界面初始化*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.App{
+  height:100%;
+}
+
+/*导航栏*/
+header .mu-icon-button{
+  margin:0.15em  0 0 0.15em;
+
+}
+.page_main_header{
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 -2px 10px #ccc;
+  position:fixed;
+}
+.page_header{
+  display:-webkit-flex;
+  display: flex;
+  justify-content: space-around;
+}
+.user_menu .material-icons{
+  color:#fff;
+}
+.app_title{
+  display: inline-block;
+  float:left;
+  text-align: center;
+  color:#fff;
+  height:100%;
+  line-height:4em;
+  margin-left:8em;
+}
+.app_title span{
+  font-weight:bold;
+  font-size:18px;
+}
+.header_seacher{
+  float:left;
+  height:100%;
+
+  margin:0  0 0 8em;
+}
+.header_seacher .material-icons{
+  color:#fff;
+  margin-top:0.7em;
+}
+
+
+
+
+.navBottom{
+  width: 100%;
+  height: 50px;
+  border-top:1px solid #dbdbdb;
+  /*box-shadow: 0 -2px 10px #ccc;*/
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+.navBottom .router-link{
+  display:-webkit-flex;
+  display: flex;
+  justify-content: space-around;
+}
+.tabItem{
+  text-align: center;
+  line-height:50px;
+}
+.mu-ripple-wrapper{
+}
+.mu-icon-button{
+  float:left;
+}
+
+/*侧边栏头像部分*/
+.mu-list{
+  padding:0!important;
+}
+.self_sculpture_list  {
+  margin-top:0;
+  background:#2196F3;
+
+}
+.self_sculpture_list  .mu-item
+{
+  height:6em;
+  -webkit-box-shadow: 0px 1px 5px #9e9e9e;
+  -moz-box-shadow: 0px 1px 5px  #9e9e9e;
+  box-shadow: 0px 1px 5px  #9e9e9e;
+
+}
+.
+/*头像*/
+.self_sculpture_list .mu-item-left{
+  height:84px;
+
+}
+.mu-item-content{
+
+
+}
+.group{
+  float:left;
+  height:6em;
+}
+.self_sculpture_list .user_message  {
+  color:#fff;
+  float:left;
+  heigth:100%;
+  padding-top:0.8em;
+}
+.self_sculpture_list .user_message .username{
+  font-size: 18px;
+}
+.self_sculpture_list .user_message .user_id{
+  font-size:12px;
+  color:#e0e0e0;
+  width:9em;
+  overflow: hidden;
+
+}
+.self_sculpture_list .user_code{
+  position:fixed;
+  color:#fff;
+  float:left;
+  width:auto;
+  height:3.4em;
+  line-height:3.4em;
+  right:0.5em;
+  top:1em;
+}
